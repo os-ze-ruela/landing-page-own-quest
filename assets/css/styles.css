@@ -133,54 +133,67 @@ nav>ul {
   border: 1px solid var(--primary-color);
 }
 
+
 /*! FUNCIONALIDADES SECTION */
 
-.funcs-section {
-  width: 100%;
-  background-color: #FFF;
-  color: var(--primary-color);
-  padding: 2rem 5rem;
-  display: flex;
-  flex-direction:  column;
-  align-items: center;
-  text-align: center;
-}
-
-.funcs-list {
-  width: 100%;
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* grid-template-columns: repeat(3, 1fr); */
-}
-
-.func-item {
-  height: 256px;
-  width: 272px;
-  margin-left: 1rem;
+.functions {
+  margin-top: 2rem;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+}
+
+.stakeholders {
+  margin: 1rem auto;
+  max-width: 90%;
+}
+
+.stakeholders img {
+  border-radius: 0.6rem;
+}
+
+.funcs-title {
+  align-items: center;
+}
+
+.functionalities {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 3rem;
+}
+
+.functionality {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .func-icon {
   background-color: var(--secondary-color-variant);
-  height: 60%;
-  width: 60%;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
-.func-item h2 {
-  font-weight:500;
+.func-title {
+  font-weight: 500;
   font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
 }
 
-.func-item h3{
-  font-weight:400;
+.functionality h3 {
+  color: var(--primary-color);
+  font-weight: 400;
   font-size: 16px;
 }
+
+
+
 
 /*! ABOUT SECTION */
 

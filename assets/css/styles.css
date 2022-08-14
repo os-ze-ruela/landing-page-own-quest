@@ -52,6 +52,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: 32px;
   color: var(--secondary-color-variant);
 }
 
@@ -224,12 +225,21 @@ nav>ul {
   align-items: center;
 }
 
-.func-icon {
+.func-icon-container {
   background-color: var(--secondary-color-variant);
   height: 150px;
   width: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.func-icon {
+  color: #000;
+  width: 70%;
 }
 
 .func-title {
@@ -312,14 +322,14 @@ nav>ul {
 /*! FUNCIONALIDADES SECTION */
 
 .team {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.team > h1 {
+.team>h1 {
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -338,7 +348,7 @@ nav>ul {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  row-gap: 5rem;  
+  row-gap: 5rem;
 }
 
 .team-container {
@@ -369,7 +379,7 @@ nav>ul {
 }
 
 @media screen and (max-width:768px) {
-  
+
   .team-photo {
     height: 120px;
     width: 120px;
@@ -379,7 +389,71 @@ nav>ul {
     gap: 0.5rem;
     row-gap: 1.2em;
   }
+
+  .team-title {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width:420px) {
+/* FOOTER SECTION */
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color-variant);
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
 }

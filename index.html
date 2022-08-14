@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/script.js"></script>
 
     <title>Own Quest</title>
 </head>
@@ -21,87 +22,126 @@
                 </h1>
             </a>
             <ul>
+                <div class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#functions" class="nav-link" id="nav-link">Funcionalidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" id="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#time" class="nav-link" id="nav-link">Time</a>
+                    </li>
+                </div>
                 <li class="nav-item">
-                    <a href="#funcionalidades" class="nav-link" id="nav-link">Funcionalidades</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#sobre" class="nav-link" id="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#time" class="nav-link" id="nav-link">Time</a>
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 </li>
             </ul>
-            <div class="hamburger" id="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
-        <!-- HERO SECTION -->
-        <section class="hero">
-            <div class="hero-section">
-                <div class="hero-text">
-                    <span class="hero-title">
-                        <h1>Faça suas</h1>
-                        <h1 class="hero-title-history">histórias</h1>
-                    </span>
-                    <p>O Own Quest é uma plataforma de criação de histórias personalizadas jogáveis onde você determina
-                        os caminhos possíveis para alcançar diferentes finais.</p>
-                    <button class="hero-button">Criar uma Jornada</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="functions" id="stakeholders">
-            <h1 class="funcs-title">Funcionalidades</h1>
-            <div class="stakeholders">
-                <div class="functionalities">
-                    <div class="functionality">
-                        <div class="func-icon"></div>
-                        <h2 class="func-title">Crie suas próprias histórias</h2>
-                        <h3>Personalize as páginas da história como quiser</h3>
-                    </div>
-                    <div class="functionality">
-                        <div class="func-icon"></div>
-                        <h2 class="func-title">Histórias com múltiplos finais</h2>
-                        <h3>Suas decisões interferem no final</h3>
-                    </div>
-                    <div class="functionality">
-                        <div class="func-icon"></div>
-                        <h2 class="func-title">Explorar histórias da comunidade</h2>
-                        <h3>Jogue as mais bem avaliadas</h3>
-                    </div>
-                    <div class="functionality">
-                        <div class="func-icon"></div>
-                        <h2 class="func-title">Explorar histórias da comunidade</h2>
-                        <h3>Jogue as mais bem avaliadas</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ABOUT SECTION -->
-        <section class="about">
-            <div class="about-section">
-                <div class="about-content">
-                    <h1>Sobre o Projeto</h1>
-                    <br>
-                    <p>O none “Own Quest” deriva da palavra “Own” (próprio) refere-se ao poder de decisão de criação das
-                        suas histórias, a palavra “Quest” faz alusão as jornadas de um RPG (Role-playing game), já que a
-                        plataforma permite a criação de narrativas personalizadas onde as decisões da história
-                        interferem no
-                        rumo da aventura.</p>
-                    <br>
-                    <img src="/assets//images/logo_ifsp.bri_white.fw.png" alt="logo_ifsp" class="logo-if">
-
-                    <p>Esse projeto foi desenvolvido por alunos do curso de Engenharia de Computação durante a
-                        disciplina de Projeto Integrador I.
-                        <br />Instituto Federal de São Paulo - Campus Birigui.
-                    </p>
-                </div>
-            </div>
-        </section>
     </header>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-section">
+            <h1 class="hero-title">
+                Faça suas
+                <span class="hero-title-history">
+                    histórias
+                </span>
+            </h1>
+            <p class="hero-description">A Own Quest é uma plataforma de criação de histórias personalizadas jogáveis
+                onde
+                você determina
+                os caminhos possíveis para alcançar diferentes finais.</p>
+            <button class="hero-button">Criar uma Jornada</button>
+
+        </div>
+    </section>
+
+    <section class="functions" id="stakeholders">
+        <h1 class="funcs-title">Funcionalidades</h1>
+        <div class="stakeholders">
+            <div class="functionalities">
+                <div class="functionality">
+                    <div class="func-icon"></div>
+                    <h2 class="func-title">Crie suas próprias histórias</h2>
+                    <h3>Personalize as páginas da história como quiser</h3>
+                </div>
+                <div class="functionality">
+                    <div class="func-icon"></div>
+                    <h2 class="func-title">Histórias com múltiplos finais</h2>
+                    <h3>Suas decisões interferem no final</h3>
+                </div>
+                <div class="functionality">
+                    <div class="func-icon"></div>
+                    <h2 class="func-title">Explorar histórias da comunidade</h2>
+                    <h3>Jogue as mais bem avaliadas</h3>
+                </div>
+                <div class="functionality">
+                    <div class="func-icon"></div>
+                    <h2 class="func-title">Explorar histórias da comunidade</h2>
+                    <h3>Jogue as mais bem avaliadas</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="about-section">
+            <div class="about-content">
+                <h1>Sobre o Projeto</h1>
+                <br>
+                <p>O none “Own Quest” deriva da palavra “Own” (próprio) refere-se ao poder de decisão de criação das
+                    suas histórias, a palavra “Quest” faz alusão as jornadas de um RPG (Role-playing game), já que a
+                    plataforma permite a criação de narrativas personalizadas onde as decisões da história
+                    interferem no
+                    rumo da aventura.</p>
+                <br>
+                <img src="/assets//images/logo_ifsp.bri_white.fw.png" alt="logo_ifsp" class="logo-if">
+
+                <p>Esse projeto foi desenvolvido por alunos do curso de Engenharia de Computação durante a
+                    disciplina de Projeto Integrador I.
+                    <br />
+                    <br />
+                    Instituto Federal de São Paulo - Campus Birigui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section class="team" id="stakeholders">
+        <h1 class="team-title">Time de Desenvolvimento</h1>
+        <div class="stakeholders">
+            <div class="teams">
+                <div class="team-container">
+                    <img src="./assets/images/carlos.jpg" alt="carlos" class="team-photo">
+                    <h2 class="team-title">Carlos Ziliolli Braga</h2>
+                    <h3>Estudante de Engenharia</h3>
+                </div>
+                <div class="team-container">
+                    <img src="./assets/images/gabriel.jpg" alt="gabriel" class="team-photo">
+                    <h2 class="team-title">Gabriel Palmyro Martins</h2>
+                    <h3>gabriplamyro.github.io/m-portfolio</h3>
+                </div>
+                <div class="team-container">
+                    <img src="./assets/images/pedro.jpg" alt="pedro" class="team-photo">
+                    <h2 class="team-title">Gabriel Palmyro Martins</h2>
+                    <h3>gabriplamyro.github.io/m-portfolio</h3>
+                </div>
+                <div class="team-container">
+                    <img src="./assets/images/leonardo.jpg" alt="pedro" class="team-photo">
+                    <h2 class="team-title">Gabriel Palmyro Martins</h2>
+                    <h3>gabriplamyro.github.io/m-portfolio</h3>
+                </div>
+                <div class="team-container">
+                    <img src="./assets/images/lucas.jpg" alt="pedro" class="team-photo">
+                    <h2 class="team-title">Gabriel Palmyro Martins</h2>
+                    <h3>gabriplamyro.github.io/m-portfolio</h3>
+                </div>
+            </div>
+        </div>
+    </section>
     <main>
 
     </main>

@@ -128,7 +128,7 @@ nav>ul {
 }
 
 .hero-section>p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -136,38 +136,18 @@ nav>ul {
 .hero-title {
   display: flex;
   font-weight: 700;
-  font-size: 2rem;
+  font-size:5rem;
   margin-bottom: 0.4rem;
-  font-size: 2.8rem;
+  color: var(--primary-color);
 }
 
 .hero-description {
-  width: 65%;
+  width: 70%;
 }
 
 .hero-title-history {
   color: #1B263B;
   margin-left: 8px;
-}
-
-.hero-button {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #1B263B;
-  color: var(--secondary-color-variant);
-  padding: 0.5rem 1.2rem;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-  font-size: 1.1rem;
-  font-weight: 300;
-  overflow: hidden;
-
-  transition: var(--transition);
-}
-
-.hero-button:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: var(--secondary-color-variant);
-  border: 2px solid var(--primary-color);
 }
 
 
@@ -183,6 +163,7 @@ nav>ul {
 
   .hero-description {
     width: 100%;
+    font-size: 3rem;
   }
 
   .hero-title-history {
